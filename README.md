@@ -29,8 +29,10 @@ EF EF EF EF EF EF EF EF
 `go run main.go -t udp -c 1 -d 192.168.11.17:60000 -p test.txt`
 
 ## Parameter
+```
 $ go run main.go
   -c=10: Packet Count < 1000
   -d="127.0.0.1:8080": Destination IP Address and Port Number
   -p="test.txt": Packet Payload(HEX) file size < 1000byte
   -t="ip, tcp or udp": Protocol
+```
