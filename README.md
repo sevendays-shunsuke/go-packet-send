@@ -6,8 +6,8 @@ This project is unique packet send for Go language.
 
 ## How To Use
 ### Make Packet Payload File
-`
-$ cat test.txt 
+```
+$ cat test.txt  
 EF EF EF EF EF EF EF EF
 00 11 22 33 44 55 66 77
 88 99 AA BB CC DD EE FF 
@@ -17,8 +17,8 @@ EF EF EF EF EF EF EF EF
 88 99 AA BB CC DD EE FF 
 00 11 22 33 44 55 66 77
 88 99 AA BB CC DD EE FF 
-11 22 33 4
-`
+11 22 33 44
+```
 ### IP Packet Send
 `go run main.go -t ip -c 1 -d 192.168.11.17 -p test.txt`
 
